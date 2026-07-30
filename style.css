@@ -11,7 +11,12 @@
 
 body{
 
+<<<<<<< HEAD
     background:#ddbd93;
+=======
+    background:#ddbf99;
+;
+>>>>>>> 6b39fe1 (atualização 75%)
     color:#ffffff;
 }
 
@@ -28,7 +33,11 @@ header{
 
     position:fixed;
 
+<<<<<<< HEAD
     background:#ddbf99;
+=======
+    background: #806a50;
+>>>>>>> 6b39fe1 (atualização 75%)
 
     z-index:1000;
 
@@ -301,7 +310,11 @@ nav{
 
 .service-box{
 
+<<<<<<< HEAD
    background:#a8a4a4;
+=======
+   background:#806a50;
+>>>>>>> 6b39fe1 (atualização 75%)
 
    border-radius:20px;
 
@@ -341,7 +354,11 @@ nav{
 
 .service-box p{
 
+<<<<<<< HEAD
    color:#d9d9d9;
+=======
+   color:#fffdfd;
+>>>>>>> 6b39fe1 (atualização 75%)
 
    line-height:28px;
 
@@ -379,4 +396,235 @@ nav{
 
    box-shadow:0 0 20px #A020F0;
 
+<<<<<<< HEAD
+=======
+}
+/*================ PORTFÓLIO ================*/
+
+.portfolio{
+
+    padding:100px 9%;
+    background: #ddbf99;
+
+}
+
+.portfolio-container{
+
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:25px;
+
+}
+
+.portfolio-box{
+
+    position:relative;
+
+    overflow:hidden;
+
+    border-radius:20px;
+
+    box-shadow:0 0 15px rgba(0,0,0,.4);
+
+}
+
+.portfolio-box img{
+
+    width:100%;
+    height:300px;
+
+    object-fit:cover;
+
+    transition:.5s;
+
+}
+
+.portfolio-layer{
+
+    position:absolute;
+
+    left:0;
+    bottom:0;
+
+    width:100%;
+    height:100%;
+
+    background:linear-gradient(#0e0d0d,#A020F0);
+
+    display:flex;
+
+    justify-content:center;
+    align-items:center;
+
+    flex-direction:column;
+
+    text-align:center;
+
+    padding:30px;
+
+    transform:translateY(100%);
+
+    transition:.5s;
+
+}
+
+.portfolio-box:hover .portfolio-layer{
+
+    transform:translateY(0);
+
+}
+
+.portfolio-box:hover img{
+
+    transform:scale(1.1);
+
+}
+
+.portfolio-layer h4{
+
+    font-size:30px;
+
+}
+
+.portfolio-layer p{
+
+    font-size:17px;
+
+    margin:15px 0 20px;
+
+}
+
+.portfolio-layer a{
+
+    display:flex;
+
+    justify-content:center;
+    align-items:center;
+
+    width:60px;
+    height:60px;
+
+    background:#fff;
+
+    border-radius:50%;
+
+    text-decoration:none;
+
+}
+
+.portfolio-layer i{
+
+    font-size:30px;
+
+    color:#ddbf99;
+
+}
+
+.modal{
+
+position:fixed;
+
+left:0;
+top:0;
+
+width:100%;
+height:100%;
+
+background:rgba(0,0,0,.8);
+
+display:none;
+
+justify-content:center;
+
+align-items:center;
+
+z-index:9999;
+
+}
+
+.modal-content{
+
+background:#323946;
+
+width:80%;
+
+max-width:900px;
+
+padding:40px;
+
+border-radius:20px;
+
+border:2px solid #00e5ff;
+
+position:relative;
+
+animation:zoom .4s;
+
+color:white;
+
+}
+
+.close{
+
+position:absolute;
+
+right:25px;
+
+top:20px;
+
+font-size:35px;
+
+cursor:pointer;
+
+color:#00e5ff;
+
+}
+
+@keyframes zoom{
+
+from{
+
+transform:scale(.7);
+
+opacity:0;
+
+}
+
+to{
+
+transform:scale(1);
+
+opacity:1;
+
+}
+
+}
+
+
+#rodape{
+   background:#806a50;
+   text-align:center;
+   padding:20px;
+   border-top:4px solid #A020F0;
+   margin-top:40px;
+}
+
+.navbar a{
+
+    color:#fff;
+    text-decoration:none;
+    margin-left:35px;
+    transition:.3s;
+
+}
+
+.navbar a:hover,
+.navbar a.active{
+
+    color:#A020F0;
+
+}
+html{
+    scroll-behavior: smooth;
+>>>>>>> 6b39fe1 (atualização 75%)
 }

@@ -54,4 +54,35 @@ const textos = [
     
     }
     
+<<<<<<< HEAD
     escrever();
+=======
+    escrever();
+    const sections = document.querySelectorAll("section");
+const navLinks = document.querySelectorAll(".navbar a");
+
+window.addEventListener("scroll", () => {
+
+    let current = "";
+
+    sections.forEach(section => {
+
+        const sectionTop = section.offsetTop - 150;
+        const sectionHeight = section.offsetHeight;
+
+        if (window.scrollY >= sectionTop) {
+            current = section.getAttribute("id");
+        }
+
+    });
+
+    navLinks.forEach(link => {
+        link.classList.remove("active");
+
+        if (link.getAttribute("href") === "#" + current) {
+            link.classList.add("active");
+        }
+    });
+
+});
+>>>>>>> 6b39fe1 (atualização 75%)
