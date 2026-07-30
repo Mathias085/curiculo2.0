@@ -1,83 +1,268 @@
-/* Configurações Gerais */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
- }
- 
- body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #121214; /* Fundo geral escuro */
-    color: #e1e1e6; /* Texto claro principal */
-    line-height: 1.6;
-    padding: 40px 20px;
- }
- 
- /* Caixa Principal do Currículo */
- .container {
-    max-width: 700px;
-    margin: 0 auto;
-    background-color: #1d1d22; /* Fundo do currículo */
-    padding: 40px;
-    border-radius: 8px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
-    border: 1px solid #29292e;
- }
- 
- /* Cabeçalho e Foto */
- header {
-    text-align: center;
-    border-bottom: 2px solid #9871ff; /* Linha divisória roxa */
-    padding-bottom: 20px;
-    margin-bottom: 30px;
- }
- 
- .profile-img {
-    width: 130px;
-    height: 130px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 15px;
-    border: 3px solid #9871ff; /* Borda da foto em roxo */
- }
- 
- header h1 {
-    font-size: 24px;
-    color: #ffffff;
- }
- 
- /* Seções do Currículo */
- section {
-    margin-bottom: 25px;
- }
- 
- h2 {
-    font-size: 18px;
-    color: #9871ff; /* Títulos das seções em roxo vibrante */
-    text-transform: uppercase;
-    margin-bottom: 12px;
-    border-left: 4px solid #9871ff; /* Detalhe lateral em roxo */
-    padding-left: 10px;
- }
- 
- h3 {
-    font-size: 15px;
-    color: #a8a8b3;
-    margin-bottom: 8px;
- }
- 
- /* Listas de Informações */
- ul {
-    list-style: none;
- }
- 
- li {
-    font-size: 15px;
-    margin-bottom: 8px;
-    color: #c4c4cc;
- }
- 
- li strong {
-    color: #ffffff;
- }
- 
+/* Fonte */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+
+    background:#ddbd93;
+    color:#ffffff;
+}
+
+/*================ HEADER ================*/
+
+header{
+
+    width:100%;
+    padding:25px 10%;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    position:fixed;
+
+    background:#ddbf99;
+
+    z-index:1000;
+
+}
+
+.logo{
+
+    color:#ffffff;
+    text-decoration:none;
+    font-size:35px;
+    font-weight:700;
+
+}
+
+.logo span{
+
+    color:#A020F0;
+
+}
+
+nav a{
+
+    color:#ffffff;
+    text-decoration:none;
+    margin-left:35px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+nav a:hover{
+
+    color:#A020F0;
+
+}
+
+/*================ HOME ================*/
+
+.home{
+
+    width:100%;
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:120px 10%;
+
+}
+
+.texto{
+
+    width:600px;
+
+}
+
+.texto h1{
+
+    font-size:60px;
+
+    margin-bottom:10px;
+
+}
+
+.texto h2{
+
+    font-size:40px;
+
+    margin-bottom:20px;
+
+}
+
+.typing{
+
+    color:#9400D3;
+
+}
+
+.texto p{
+
+    font-size:18px;
+
+    color:#ffffff;
+
+    line-height:30px;
+
+}
+
+/*================ REDES ================*/
+
+.social{
+
+    display:flex;
+
+    margin:35px 0;
+
+}
+
+.social a{
+
+    width:50px;
+    height:50px;
+
+    border:2px solid #A020F0;
+
+    border-radius:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:#A020F0;
+
+    text-decoration:none;
+
+    margin-right:15px;
+
+    font-size:24px;
+
+    transition:.4s;
+
+}
+
+.social a:hover{
+
+    background:#A020F0;
+
+    color:#1f242d;
+
+    box-shadow:0 0 20px #A020F0;
+
+}
+
+/*================ BOTÃO ================*/
+
+.btn{
+
+    display:inline-block;
+
+    padding:15px 45px;
+
+    background:#A020F0;
+
+    color:#000000;
+
+    text-decoration:none;
+
+    border-radius:35px;
+
+    font-weight:700;
+
+    transition:.4s;
+
+    box-shadow:0 0 20px #000000;
+
+}
+
+.btn:hover{
+
+    transform:scale(1.05);
+
+    box-shadow:0 0 35px #000000;
+
+}
+
+/*================ FOTO ================*/
+
+.foto{
+
+    width:420px;
+    height:420px;
+
+}
+
+.foto img{
+
+    width:100%;
+    height:100%;
+
+    object-fit:cover;
+
+    border-radius:50%;
+
+    border:5px solid #A020F0;
+
+    box-shadow:
+
+    0 0 15px #A020F0,
+
+    0 0 30px #A020F0,
+
+    0 0 50px #A020F0;
+
+}
+
+/*================ RESPONSIVO ================*/
+
+@media(max-width:991px){
+
+.home{
+
+    flex-direction:column-reverse;
+
+    text-align:center;
+
+}
+
+.texto{
+
+    width:100%;
+
+}
+
+.foto{
+
+    width:300px;
+
+    height:300px;
+
+    margin-bottom:50px;
+
+}
+
+nav{
+
+    display:none;
+
+}
+
+}
