@@ -54,9 +54,7 @@ const textos = [
     
     }
     
-<<<<<<< HEAD
     escrever();
-=======
     escrever();
     const sections = document.querySelectorAll("section");
 const navLinks = document.querySelectorAll(".navbar a");
@@ -85,4 +83,3 @@ window.addEventListener("scroll", () => {
     });
 
 });
->>>>>>> 6b39fe1 (atualização 75%)

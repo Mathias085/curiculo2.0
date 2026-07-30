@@ -11,16 +11,13 @@
 
 body{
 
-<<<<<<< HEAD
+
     background:#ddbd93;
-=======
     background:#ddbf99;
 ;
->>>>>>> 6b39fe1 (atualização 75%)
     color:#ffffff;
 }
 
-/*================ HEADER ================*/
 
 header{
 
@@ -33,11 +30,9 @@ header{
 
     position:fixed;
 
-<<<<<<< HEAD
+
     background:#ddbf99;
-=======
     background: #806a50;
->>>>>>> 6b39fe1 (atualização 75%)
 
     z-index:1000;
 
@@ -76,7 +71,6 @@ nav a:hover{
 
 }
 
-/*================ HOME ================*/
 
 .home{
 
@@ -131,7 +125,6 @@ nav a:hover{
 
 }
 
-/*================ REDES ================*/
 
 .social{
 
@@ -178,7 +171,6 @@ nav a:hover{
 
 }
 
-/*================ BOTÃO ================*/
 
 .btn{
 
@@ -210,7 +202,7 @@ nav a:hover{
 
 }
 
-/*================ FOTO ================*/
+
 
 .foto{
 
@@ -240,7 +232,6 @@ nav a:hover{
 
 }
 
-/*================ RESPONSIVO ================*/
 
 @media(max-width:991px){
 
@@ -276,7 +267,6 @@ nav{
 
 }
 
-/*================ SERVIÇOS ================*/
 
 .services{
 
@@ -310,11 +300,10 @@ nav{
 
 .service-box{
 
-<<<<<<< HEAD
+
    background:#a8a4a4;
-=======
    background:#806a50;
->>>>>>> 6b39fe1 (atualização 75%)
+
 
    border-radius:20px;
 
@@ -354,11 +343,11 @@ nav{
 
 .service-box p{
 
-<<<<<<< HEAD
+
    color:#d9d9d9;
-=======
+
    color:#fffdfd;
->>>>>>> 6b39fe1 (atualização 75%)
+
 
    line-height:28px;
 
@@ -366,7 +355,6 @@ nav{
 
 }
 
-/*============== BOTÃO ==============*/
 
 .btn-service{
 
@@ -396,10 +384,8 @@ nav{
 
    box-shadow:0 0 20px #A020F0;
 
-<<<<<<< HEAD
-=======
+
 }
-/*================ PORTFÓLIO ================*/
 
 .portfolio{
 
@@ -626,5 +612,4 @@ opacity:1;
 }
 html{
     scroll-behavior: smooth;
->>>>>>> 6b39fe1 (atualização 75%)
 }
