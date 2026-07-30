@@ -266,3 +266,117 @@ nav{
 }
 
 }
+
+/*================ SERVIÇOS ================*/
+
+.services{
+
+   padding:100px 9%;
+
+}
+
+.heading{
+
+   text-align:center;
+   font-size:60px;
+   margin-bottom:60px;
+
+}
+
+.heading span{
+
+   color:#A020F0;
+
+}
+
+.services-container{
+
+   display:grid;
+
+   grid-template-columns:repeat(auto-fit,minmax(330px,1fr));
+
+   gap:30px;
+
+}
+
+.service-box{
+
+   background:#323946;
+
+   border-radius:20px;
+
+   padding:40px;
+
+   text-align:center;
+
+   transition:.4s;
+
+}
+
+.service-box:hover{
+
+   transform:translateY(-10px);
+
+   box-shadow:0 0 25px #00e5ff55;
+
+}
+
+.service-box i{
+
+   font-size:70px;
+
+   color:#A020F0;
+
+   margin-bottom:20px;
+
+}
+
+.service-box h3{
+
+   font-size:32px;
+
+   margin-bottom:20px;
+
+}
+
+.service-box p{
+
+   color:#d9d9d9;
+
+   line-height:28px;
+
+   margin-bottom:30px;
+
+}
+
+/*============== BOTÃO ==============*/
+
+.btn-service{
+
+   display:inline-block;
+
+   padding:12px 35px;
+
+   background:#A020F0;
+
+   color:#1f242d;
+
+   border-radius:40px;
+
+   text-decoration:none;
+
+   font-weight:600;
+
+   transition:.3s;
+
+}
+
+.btn-service:hover{
+
+   background:#fff;
+
+   transform:scale(1.08);
+
+   box-shadow:0 0 20px #A020F0;
+
+}
